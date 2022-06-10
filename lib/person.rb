@@ -1,13 +1,22 @@
-class Person
-    #Setter method -is defined with an = appended to the name of the method
+#Setter method -is defined with an = appended to the name of the method
     # The = a character that identifies this method as a setter method.
+class Person
+    # Setter method
     def name = (name)
         @name = name
     end
+
+    def job = (job)
+        @job = job
+    end    
     
     # Getter method
     def name
-        @name = name
+        @name
+    end 
+    
+    def job
+        @job
     end    
 end
 
